@@ -2,7 +2,7 @@ import { FacebookLogo, XLogo, InstagramLogo, HandHeart } from "@phosphor-icons/r
 
 export const Footer = () => {
     return (
-        <footer className="flex flex-col items-center justify-center bg-sky-700 text-white h-35 px-8 text-lg">
+        <footer className="flex flex-col items-center justify-center bg-sky-700 text-white h-35 px-8 text-lg ">
             <div className="mb-2">
                 <h1 className="font-bold text-xl mt-4">Siga-nos</h1>
             </div>

@@ -95,8 +95,12 @@ export const Students = () => {
                       type="text"
                       id="name"
                       className="w-full p-2 border border-gray-300 rounded-md"
+                      required
+                      minLength={2}
+                      maxLength={25}
                       value={formData.name}
                       onChange={handleFormChange}
+                     
                     />
                   </div>
                   <div className="m-4">
@@ -105,6 +109,7 @@ export const Students = () => {
                       type="email"
                       id="email"
                       className="w-full p-2 border border-gray-300 rounded-md"
+                      required
                       value={formData.email}
                       onChange={handleFormChange}
                     />
@@ -116,6 +121,7 @@ export const Students = () => {
                       className="w-full h-36 p-2 border border-gray-300 rounded-md"
                       value={formData.mensagem}
                       onChange={handleFormChange}
+                      required
                     ></textarea>
                   </div>
                   <button className="bg-white text-green-600 border border-green-600 px-4 py-2 rounded-md hover:bg-green-600 hover:text-white transition-colors duration-300 ml-5">

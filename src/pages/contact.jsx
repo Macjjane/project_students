@@ -82,12 +82,15 @@ export const Contact = () => {
           </div>
   
           <div className="flex mt-5 w-full">
-            <form className="w-[50rem]" onSubmit={handleFormSubmit}>
+            <form className="w-[full]" onSubmit={handleFormSubmit}>
               <div className="m-4">
                 <label htmlFor="name" className="block">Nome</label>
                 <input 
                   type="text" 
                   className="w-[50rem] p-2 border border-gray-300 rounded-md" 
+                  required
+                      minLength={2}
+                      maxLength={25}
                   value={name}
                   onChange={handleNameChange}
                 />
@@ -97,6 +100,7 @@ export const Contact = () => {
                 <input 
                   type="email" 
                   className="w-[50rem] p-2 border border-gray-300 rounded-md" 
+                  required
                   value={email}
                   onChange={handleEmailChange}
                 />
@@ -107,6 +111,7 @@ export const Contact = () => {
                   id="mensagem" 
                   className="w-[50rem] h-36 p-2 border border-gray-300 rounded-md"
                   value={mensagem}
+                  required
                   onChange={handleMensagemChange}
                 ></textarea>
               </div>

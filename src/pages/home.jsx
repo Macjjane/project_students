@@ -35,24 +35,19 @@ export const Home = () => {
 
 
       <div className='flex gap-48 mt-12'> 
-      <div className='font-semibold mt-4 mb-4'>
+      <div className='font-semibold mt-4 mb-4 ml-7'>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
      <p>Culpa quos totam voluptatibus consequuntur facilis, </p>  
      <p> aspernatur officiis cupiditate quas corrupti facere nihil explicabo, tempora adipisci dicta,</p> 
      <p>iste ipsum ad harum obcaecati.</p> 
      </div>
-      <div className='font-semibold mt-4 mb-4'>
+      <div className='font-semibold mt-4 mb-4 ml-7'>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
      <p>Culpa quos totam voluptatibus consequuntur facilis, </p>  
      <p> aspernatur officiis cupiditate quas corrupti facere nihil explicabo, tempora adipisci dicta,</p> 
      <p>iste ipsum ad harum obcaecati.</p> 
      </div>
-      <div className='font-semibold mt-4 mb-4'>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-     <p>Culpa quos totam voluptatibus consequuntur facilis, </p>  
-     <p> aspernatur officiis cupiditate quas corrupti facere nihil explicabo, tempora adipisci dicta,</p> 
-     <p>iste ipsum ad harum obcaecati.</p> 
-     </div>
+      
      </div>
      <Footer />
     </>
